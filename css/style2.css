@@ -1,0 +1,194 @@
+/* Reset de estilos */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de la página */
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .perfil123 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Estilos del header */
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile {
+    margin-right: 30px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .profile h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #777;
+  }
+  
+  /* Estilos de los íconos de redes sociales */
+  
+  .social-media-block {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .social-media-block a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #0077b5;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social-media-block a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-media-block a i {
+    font-size: 20px;
+  }
+  
+  /* Estilos section */
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+  }
+  
+  section li {
+    margin-bottom: 15px;
+  }
+  
+  section li h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  section li p.sub-info {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de la sección de habilidades */
+  
+  section ul.skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section ul.skills li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #0077b5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Imagen Agrandarse */
+  .profile img {
+    width: 200px;
+    height: auto;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .profile img:hover {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+  /* Footer */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .footer1 {
+    max-width: 900px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer1 p {
+    margin: 0px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .ulfooter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .lifooter {
+    margin-right: 20px;
+  }
+  
+  .lifooter:last-child {
+    margin-right: 0;
+  }
+  
+  .lifooter a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+ .lifooter a:hover {
+    text-decoration: underline;
+  }
+  
